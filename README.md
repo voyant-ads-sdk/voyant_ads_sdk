@@ -1,14 +1,16 @@
 # Voyant Ads SDK
 
 Voyant Ads SDK is a developer-controlled advertising infrastructure for Flutter applications.
-Ads render natively inside your UI and are fully themeable — no forced layouts or automatic placements.
+Ads render natively inside your UI and are fully themeable - no forced layouts or automatic placements.
 
 Voyant operates on a fixed 25% platform fee with fully transparent impression and click reporting.
 Developers have access to complete application-level statistics across all ad formats, with two reporting views available:
 • Daily analytics (up to 30 days)
 • Total lifetime analytics
 
-You control when ads are requested, rendered, and monetized — no background refresh cycles, hidden optimizations, or opaque behavior.
+You control when ads are requested, rendered, and monetized - no background refresh cycles, hidden optimizations, or opaque behavior.
+
+Voyant Ads SDK is fully platform-independent and works seamlessly across all environments supported by Flutter - including Android, iOS, Web, Windows, macOS, and Linux - with consistent behavior and no platform-specific integration requirements.
 
 ---
 

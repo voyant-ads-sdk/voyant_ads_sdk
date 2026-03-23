@@ -15,3 +15,7 @@
 ## 0.1.1
 
 ### Added Screenshots
+
+## 0.1.2
+
+### Minor changes related to upload
