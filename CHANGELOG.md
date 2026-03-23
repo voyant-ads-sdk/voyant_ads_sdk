@@ -11,3 +11,7 @@
   - Native Fullscreen Ads
   - Rewarding Ads
   - Embedded Video Ads
+
+## 0.1.1
+
+### Added Screenshots
