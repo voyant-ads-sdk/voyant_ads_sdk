@@ -23,15 +23,10 @@ documentation: https://voyantnetworks.com
 version: 0.1.5
 topics:
   - ads
-  - ad-sdk
   - advertising
   - monetization
-  - flutter-ads
-  - ads-sdk
-  - ad-network
-  - mobile-ads
-  - web-ads
-  - native-ads
+  - flutter
+  - sdk
 
 environment:
   sdk: ^3.9.2
