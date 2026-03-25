@@ -1,3 +1,14 @@
+/// Voyant Ads SDK
+///
+/// A platform-independent advertising SDK for Flutter applications.
+/// Enables developers to monetize apps across Web, Desktop, and Mobile
+/// with full control over ad rendering, routing, and analytics.
+///
+/// Includes support for:
+/// - Native and Mini Native ads
+/// - Rewarding and video ads
+/// - Fully customizable UI styling
+/// - Transparent impression and click tracking
 library;
 
 export './src/initialize.dart';

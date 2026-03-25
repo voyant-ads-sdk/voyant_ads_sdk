@@ -23,3 +23,7 @@
 ## 0.1.3
 
 ### Minor changes related to readme
+
+## 0.1.4
+
+### Web Import fix

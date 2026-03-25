@@ -88,13 +88,13 @@ class EmbeddedVideoController {
     videoPlayer.dispose();
   }
 
-  refreshVideo() {
+  void refreshVideo() {
     if (isDisposed == false) {
       refreshVideoWidget.value = !refreshVideoWidget.value;
     }
   }
 
-  initialize() async {
+  Future<void> initialize() async {
     videoController = VideoController(videoPlayer);
     await videoPlayer.open(Media(videoPath), play: playInitially);
     if (_disposed) return;

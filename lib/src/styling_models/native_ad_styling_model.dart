@@ -1,20 +1,48 @@
 import 'package:flutter/material.dart';
 import 'ad_list_tile_style.dart';
 
+/// Styling model for full Native ads.
+///
+/// Controls layout, media presentation, overlays, text styles,
+/// and overall appearance of native ad components.
 class NativeAdStylingModel {
+  /// Header tile styling (top section of the ad).
   final AdListTileStyle headerTileStyle;
+
+  /// Footer tile styling (bottom section of the ad).
   final AdListTileStyle footerTileStyle;
+
+  /// Text style for the ad description.
   final TextStyle descriptionStyle;
+
+  /// Text style for the action button or CTA.
   final TextStyle actionStyle;
+
+  /// Size of the advertiser logo.
   final double logoSize;
+
+  /// Background color behind the logo.
   final Color logoBackgroundColor;
+
+  /// Color used for loading indicators.
   final Color loadingColor;
+
+  /// Overlay color applied on media (e.g., video/image).
   final Color overlayColor;
+
+  /// Color of elements displayed on top of overlay.
   final Color onOverlayColor;
+
+  /// Background color behind media content.
   final Color mediaBackgroundColor;
+
+  /// Padding around the media component.
   final EdgeInsets mediaPadding;
+
+  /// Elevation applied to the ad container.
   final double elevation;
 
+  /// Creates a [NativeAdStylingModel] with customizable styling options.
   NativeAdStylingModel({
     this.mediaPadding = EdgeInsets.zero,
     required this.headerTileStyle,
@@ -30,6 +58,9 @@ class NativeAdStylingModel {
     this.elevation = 5,
   });
 
+  /// Provides a default styling configuration for Native ads.
+  ///
+  /// Allows optional customization of font sizes.
   static NativeAdStylingModel defaultNativeAdStyling({
     double defaultTitleFontSize = 13,
     double defaultSubtitleFontSize = 12,

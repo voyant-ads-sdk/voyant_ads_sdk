@@ -17,15 +17,3 @@ bool isHeadlessWeb() {
       ua.contains('selenium') ||
       (_webdriver == true);
 }
-// // Only compiled on web
-// import 'dart:html' as html;
-
-// bool isHeadlessWeb() {
-//   final ua = html.window.navigator.userAgent.toLowerCase();
-//   return ua.contains('headless') ||
-//       ua.contains('puppeteer') ||
-//       ua.contains('playwright') ||
-//       ua.contains('phantomjs') ||
-//       ua.contains('selenium') ||
-//       html.window.navigator.webdriver == true;
-// }

@@ -787,7 +787,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "1.0.0+1"
+    version: "0.1.4"
   wakelock_plus:
     dependency: transitive
     description:

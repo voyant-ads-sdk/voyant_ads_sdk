@@ -42,6 +42,17 @@ It works consistently across all Flutter platforms: Android, iOS, Web, Windows, 
 
 ---
 
+## Platform Support
+
+Voyant Ads SDK works across:
+
+- Android
+- iOS
+- Web
+- Windows
+- macOS
+- Linux
+
 ## 📦 Installation
 
 ````yaml

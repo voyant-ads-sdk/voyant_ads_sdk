@@ -42,7 +42,7 @@ import 'models/data_models/native_ad_data_model.dart';
 import 'models/data_models/native_fullscreen_ad_data_model.dart';
 import 'models/data_models/rewarding_ad_data_model.dart';
 import 'models/data_models/video_embedded_ad_data_model.dart';
-import 'non_web_headless.dart' if (dart.library.html) 'web_headless.dart';
+import 'non_web_headless.dart' if (dart.library.js_interop) 'web_headless.dart';
 import 'package:collection/collection.dart';
 
 import 'widgets/ad_tap_widget.dart';

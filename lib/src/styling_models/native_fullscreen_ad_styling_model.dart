@@ -1,19 +1,45 @@
 import 'package:flutter/material.dart';
 import 'ad_list_tile_style.dart';
 
+/// Styling model for Native Fullscreen ads.
+///
+/// Designed for immersive, edge-to-edge ad experiences with
+/// overlay-based UI and high-visibility layouts.
 class NativeFullScreenAdStylingModel {
+  /// Header tile styling (top overlay section).
   final AdListTileStyle headerTileStyle;
+
+  /// Header tile styling (top overlay section).
   final AdListTileStyle footerTileStyle;
+
+  /// Text style for ad description.
   final TextStyle descriptionStyle;
+
+  /// Text style for action button / CTA.
   final TextStyle actionStyle;
+
+  /// Size of the advertiser logo.
   final double logoSize;
+
+  /// Background color behind logo.
   final Color logoBackgroundColor;
+
+  /// Loading indicator color.
   final Color loadingColor;
+
+  /// Background color behind media content.
   final Color mediaBackgroundColor;
+
+  /// Overlay color applied on media (e.g., dim effect).
   final Color overlayColor;
+
+  /// Color used for elements displayed on overlay.
   final Color onOverlayColor;
+
+  /// Padding around media content.
   final EdgeInsets mediaPadding;
 
+  /// Creates a fullscreen native ad styling configuration.
   NativeFullScreenAdStylingModel({
     required this.descriptionStyle,
     required this.actionStyle,
@@ -28,6 +54,9 @@ class NativeFullScreenAdStylingModel {
     required this.footerTileStyle,
   });
 
+  /// Default styling for fullscreen native ads.
+  ///
+  /// Optimized for dark overlays and immersive UI.
   static NativeFullScreenAdStylingModel defaultNativeFullScreenAdStyling({
     double defaultTitleFontSize = 13,
     double defaultSubtitleFontSize = 12,
