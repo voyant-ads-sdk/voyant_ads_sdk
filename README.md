@@ -55,10 +55,11 @@ Voyant Ads SDK works across:
 
 ## 📦 Installation
 
-````yaml
+```
 dependencies:
   voyant_ads_sdk: latest
 
+```
 
 ## Core Principles
 
@@ -98,7 +99,7 @@ void main() async {
 
   runApp(const MyApp());
 }
-````
+```
 
 ### Optional: Enable Auto Fetch Context
 

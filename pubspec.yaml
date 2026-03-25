@@ -1,5 +1,4 @@
 name: voyant_ads_sdk
-# description: "A developer-controlled Flutter ads SDK with explicit fetching, transparent tracking, and fully customizable ad rendering—no auto-injection or hidden logic."
 description: Platform-independent Flutter Ads SDK for Web, Desktop, and Mobile with transparent ad delivery, smart routing, and full developer control.
 homepage: https://voyantnetworks.com
 repository: https://github.com/voyant-ads-sdk/voyant_ads_sdk
@@ -20,13 +19,13 @@ documentation: https://voyantnetworks.com
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 0.1.5
+version: 0.1.6
 topics:
   - ads
   - advertising
   - monetization
   - flutter
-  - sdk
+  - ad-network
 
 environment:
   sdk: ^3.9.2

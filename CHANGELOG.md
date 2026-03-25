@@ -31,3 +31,7 @@
 ## 0.1.5
 
 ### Pubspec text update
+
+## 0.1.6
+
+### Readme update
