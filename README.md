@@ -1,18 +1,21 @@
 # Voyant Ads SDK
 
-Voyant Ads SDK is a developer-controlled advertising infrastructure for Flutter applications.
-Ads render natively inside your UI and are fully themeable - no forced layouts or automatic placements.
+Platform-independent **Flutter Ads SDK** for Web, Desktop, and Mobile apps.
 
-Voyant operates on a fixed 25% platform fee with fully transparent impression and click reporting.
-Developers have access to complete application-level statistics across all ad formats, with two reporting views available:
-• Daily analytics (up to 30 days)
-• Total lifetime analytics
+Monetize Flutter apps with full control using smart ad routing, transparent ad delivery, and developer-first infrastructure.
 
-You control when ads are requested, rendered, and monetized - no background refresh cycles, hidden optimizations, or opaque behavior.
-
-Voyant Ads SDK is fully platform-independent and works seamlessly across all environments supported by Flutter - including Android, iOS, Web, Windows, macOS, and Linux - with consistent behavior and no platform-specific integration requirements.
+No hidden logic. No forced layouts. No automatic refresh cycles.
 
 ---
+
+## ✨ Features
+
+- Flutter Ads SDK for Web, Android, iOS, Windows, macOS, Linux
+- Smart ad routing (geo, device, time-based)
+- Fully customizable native ad UI
+- Transparent impression and click tracking
+- No hidden logic or forced optimization
+- Developer-controlled ad lifecycle
 
 ## Table of Contents
 
@@ -38,6 +41,13 @@ Voyant prioritizes developer ownership — predictable monetization, explicit co
 It works consistently across all Flutter platforms: Android, iOS, Web, Windows, macOS, and Linux.
 
 ---
+
+## 📦 Installation
+
+````yaml
+dependencies:
+  voyant_ads_sdk: latest
+
 
 ## Core Principles
 
@@ -77,7 +87,7 @@ void main() async {
 
   runApp(const MyApp());
 }
-```
+````
 
 ### Optional: Enable Auto Fetch Context
 
@@ -656,6 +666,10 @@ Supported platforms:
 Ad behavior, rendering logic, and monetization flow remain consistent across platforms.
 
 No platform-specific integrations are required.
+
+## 🔍 Keywords
+
+Flutter Ads SDK, ads sdk flutter, monetize flutter apps, advertising sdk, developer monetization, smart ad routing, ads sdk for web and desktop
 
 ## License
 

@@ -19,3 +19,7 @@
 ## 0.1.2
 
 ### Minor changes related to upload
+
+## 0.1.3
+
+### Minor changes related to readme

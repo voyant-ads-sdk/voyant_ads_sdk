@@ -1,8 +1,10 @@
 name: voyant_ads_sdk
-description: "A developer-controlled Flutter ads SDK with explicit fetching, transparent tracking, and fully customizable ad rendering—no auto-injection or hidden logic."
+# description: "A developer-controlled Flutter ads SDK with explicit fetching, transparent tracking, and fully customizable ad rendering—no auto-injection or hidden logic."
+description: Platform-independent Flutter Ads SDK for Web, Desktop, and Mobile apps. Monetize Flutter applications with full control using smart routing, transparent ad delivery, and developer-first infrastructure. Supports custom ad layouts, analytics, and flexible monetization without hidden logic or forced optimization.
 homepage: https://voyantnetworks.com
 repository: https://github.com/voyant-ads-sdk/voyant_ads_sdk
 issue_tracker: https://github.com/voyant-ads-sdk/voyant_ads_sdk/issues
+documentation: https://voyantnetworks.com
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 
@@ -18,7 +20,13 @@ issue_tracker: https://github.com/voyant-ads-sdk/voyant_ads_sdk/issues
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 0.1.2
+version: 0.1.3
+topics:
+  - flutter
+  - ads
+  - monetization
+  - advertising
+  - sdk
 
 environment:
   sdk: ^3.9.2
@@ -63,7 +71,6 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.8
 
   collection: ^1.19.1
 dev_dependencies:
