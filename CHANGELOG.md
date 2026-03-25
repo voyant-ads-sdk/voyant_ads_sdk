@@ -27,3 +27,7 @@
 ## 0.1.4
 
 ### Web Import fix
+
+## 0.1.5
+
+### Pubspec text update
